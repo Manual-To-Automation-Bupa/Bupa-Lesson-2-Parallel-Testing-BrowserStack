@@ -1,0 +1,30 @@
+{
+	"host": "hub.browserstack.com",
+	"username": "BROWSERSTACK_USERNAME",
+	"access_key": "BROWERSTACK_ACCESS_KEY",
+	"commonCapabilities": {
+		"name": "Login Test",
+		"build": "bupa-lesson-2-browserstack",
+		"project": "Bupa BrowserStack Parallel Demo"
+	},
+	"capabilities": [
+		{
+			"browserName": "chrome",
+			"browserVersion": "latest",
+			"os": "Windows",
+			"osVersion": "10"
+		},
+		{
+			"browser": "firefox",
+			"browserVersion": "latest",
+			"os": "Windows",
+			"osVersion": "10"
+		},
+		{
+			"browser": "edge",
+			"browserVersion": "latest",
+			"os": "Windows",
+			"osVersion": "10"
+		}
+	]
+}
